@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageCompress.Domain", "ImageCompress.Domain\ImageCompress.Domain.csproj", "{82CEADA7-72B8-4667-859C-CEC9C3D2D791}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{14F9D513-23E1-4F2C-86FF-D5D82EE4E971}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageCompress.Data", "ImageCompress.Data\ImageCompress.Data.csproj", "{8625997F-307B-4040-897E-38FA1517128F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{C631542A-3B27-42F6-9C6A-C12BB1C62FE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageCompress.Api", "ImageCompress.Api\ImageCompress.Api.csproj", "{B7673C29-DA0F-4066-BE97-3951E975463B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{5AD43C9C-EF1A-4C44-AADF-81CD004138DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageCompress.Application", "ImageCompress.Application\ImageCompress.Application.csproj", "{C709E771-1CB1-46FB-8E62-875206BA61C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82CEADA7-72B8-4667-859C-CEC9C3D2D791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82CEADA7-72B8-4667-859C-CEC9C3D2D791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82CEADA7-72B8-4667-859C-CEC9C3D2D791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82CEADA7-72B8-4667-859C-CEC9C3D2D791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8625997F-307B-4040-897E-38FA1517128F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8625997F-307B-4040-897E-38FA1517128F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8625997F-307B-4040-897E-38FA1517128F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8625997F-307B-4040-897E-38FA1517128F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7673C29-DA0F-4066-BE97-3951E975463B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7673C29-DA0F-4066-BE97-3951E975463B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7673C29-DA0F-4066-BE97-3951E975463B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7673C29-DA0F-4066-BE97-3951E975463B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C709E771-1CB1-46FB-8E62-875206BA61C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C709E771-1CB1-46FB-8E62-875206BA61C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C709E771-1CB1-46FB-8E62-875206BA61C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C709E771-1CB1-46FB-8E62-875206BA61C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82CEADA7-72B8-4667-859C-CEC9C3D2D791} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{8625997F-307B-4040-897E-38FA1517128F} = {14F9D513-23E1-4F2C-86FF-D5D82EE4E971}
+		{B7673C29-DA0F-4066-BE97-3951E975463B} = {C631542A-3B27-42F6-9C6A-C12BB1C62FE9}
+		{C709E771-1CB1-46FB-8E62-875206BA61C2} = {5AD43C9C-EF1A-4C44-AADF-81CD004138DF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A1F949C-8E9B-4F14-8109-235BB1CC4623}
+	EndGlobalSection
+EndGlobal
